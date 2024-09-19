@@ -7,7 +7,7 @@ public class Ejercicio4_3 : MonoBehaviour
     [SerializeField] float cantidad;
     [SerializeField] string moneda;
 
-    // Start is called before the first frame update
+  
     void Start()
     {
         float conversion = Convertir(cantidad,moneda);
