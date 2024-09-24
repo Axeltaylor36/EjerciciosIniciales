@@ -155,6 +155,12 @@ GameObject:
   - component: {fileID: 426166445}
   - component: {fileID: 426166446}
   - component: {fileID: 426166447}
+  - component: {fileID: 426166450}
+  - component: {fileID: 426166449}
+  - component: {fileID: 426166448}
+  - component: {fileID: 426166451}
+  - component: {fileID: 426166452}
+  - component: {fileID: 426166453}
   - component: {fileID: 426166422}
   m_Layer: 0
   m_Name: Circle
@@ -532,12 +538,93 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426166421}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ec39dbb829a3d7429397ccca81d061e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadKmH: 5
+--- !u!114 &426166448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426166421}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9606021b6f50bda4aa66ada424d684a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero: 5
+--- !u!114 &426166449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426166421}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983e1a55ef0d2674f905763ecb25fe04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero1: 0
+  numero2: 0
+--- !u!114 &426166450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426166421}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbd8b96a9e84f04ea949881b45cb8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaA: 0
+  vidaB: 0
+--- !u!114 &426166451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426166421}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717bb9ccfa00e564095a8f6f747c7db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero1: 7
+  numero2: 6
+--- !u!114 &426166452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426166421}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8068fef2cdce5c47a6a70e5aa855ab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 3
+--- !u!114 &426166453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426166421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49d483f49b8e9e4aa7372a72fbca01d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 835
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

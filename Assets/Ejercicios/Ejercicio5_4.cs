@@ -2,22 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_2 : MonoBehaviour
+public class Ejercicio5_4 : MonoBehaviour
 {
+
     [SerializeField] int numero1;
     [SerializeField] int numero2;
-
-
+    
     // Start is called before the first frame update
     void Start()
     {
-        if (numero1 < 3 && numero2 <3)
+        if (numero2 != 0)
         {
-            Debug.Log("Ambos numeros son menores ");
+            float division = numero1 / numero2;
+            Debug.Log(division + "es el resultado de la división");
         }
-        else
+        else 
         {
-            Debug.Log("Algo va mal");
+            Debug.Log("No se puede dividir entre cero");
         }
     }
 
